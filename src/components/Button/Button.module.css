@@ -1,0 +1,15 @@
+button {
+  margin: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  background: teal;
+  font-size: 1.1rem;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}

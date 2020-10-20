@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Short+Stack&family=Tangerine:wght@700&display=swap");
+
+.hero_container {
+  /* background: skyblue; */
+  background: linear-gradient(
+    45deg,
+    rgba(255, 99, 71, 0.5),
+    rgba(135, 206, 235, 0.9)
+  );
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0% 100%); */
+}
+
+.hero_flex {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 5rem 2rem;
+}
+
+.hero_flex img {
+  /* width: 100%; */
+  height: 60vh;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.herotext {
+  margin: 0 auto;
+  padding: 3rem;
+  font-size: 2rem;
+  font-family: "Merienda One", cursive;
+}
